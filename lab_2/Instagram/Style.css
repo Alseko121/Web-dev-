@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 15px;
+}
+
+.login-form {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border: none;
+    background-color: #3897f0;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-facebook {
+    background: none;
+    border: none;
+    color: #385185;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 10px 0;
+    color: #999;
+}
+
+.forgot-password {
+    display: block;
+    color: #00376b;
+    margin: 10px 0;
+}
+
+.signup, .get-the-app {
+    margin-top: 10px;
+}
+
+.get-the-app .app-stores img {
+    height: 40px;
+    margin: 0 5px;
+}
