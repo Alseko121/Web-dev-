@@ -1,0 +1,20 @@
+<h2>Photos</h2>
+
+<!--
+<fieldset>
+  <input type="text" [(ngModel)]="newAlbum.title"><br/>
+  <textarea [(ngModel)]="newPost.body"></textarea><br/>
+  <button (click)="addPost()">Add post</button>
+</fieldset>
+-->
+<button (click)="returnBack()"><- Return Back</button>
+<ul *ngIf="loaded">
+  <li *ngFor="let photo of photos">
+    <h3>{{photo.title}}</h3>
+    <img src="{{photo.url}}">
+  </li>
+
+</ul>
+
+<h3 *ngIf="!loaded">Albums are loading...</h3>
+
